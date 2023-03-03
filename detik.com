@@ -41,5 +41,5 @@ for i in range(1, num_pages+1):
 
 df = pd.DataFrame(titles_list)
 df
-# import to excel
+# import to excell
 df.to_excel('beritadetik5.xlsx',encoding='utf8', index=False)
