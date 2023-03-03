@@ -17,7 +17,6 @@ tgl='?date=11/22/2021'
 titles_list = []
 
 for i in range(1, num_pages+1):
-    # Membuat URL untuk setiap halaman
     # Making URL per page
     response = requests.get(base_url+str(i)+tgl)
     
